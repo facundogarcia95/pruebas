@@ -1,0 +1,8 @@
+{
+	"name":"fmt/usuarios",
+	"description":"clase para acceder a los datos de la api de usuarios",
+	"require": {},
+	"autoload":{
+		"psr-4":{"FMT\\":"src"}
+	}
+}

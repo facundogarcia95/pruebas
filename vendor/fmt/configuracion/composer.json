@@ -1,0 +1,8 @@
+{
+	"name":"fmt/configuracion",
+	"description":"configuracion",
+	"require": {},
+	"autoload":{
+		"psr-4":{"FMT\\":"src"}
+	}
+}

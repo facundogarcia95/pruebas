@@ -1,0 +1,10 @@
+{
+    "name": "fmt/mailer",
+    "autoload":{
+        "psr-4":{"FMT\\":"src", "PHPMailer\\PHPMailer\\":"src"}
+    },
+    "require":{
+        "ext-json":"*",
+        "ext-curl":"*"
+    }
+}

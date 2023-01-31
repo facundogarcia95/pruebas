@@ -1,0 +1,34 @@
+{{{NOTA}}}
+			  //#######################################################################################//
+			 //### DEBE AGREGARSE AL PROYECTO EL ARCHIVO DE ESTILOS "/cdn/estiloIS/3/estilois.css" ###//
+			//#######################################################################################//			
+{{{/NOTA}}}	
+<header>
+	<nav class="navbar navbar-default" role="navigation">
+	{{{DEV}}}
+		<div class="dev_title">{{{TEXT_DEV}}}</div>
+	{{{/DEV}}}			
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="{{{LOGO_MINISTERIO}}}" height="50" alt=""></a>
+			</div>
+			<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-2">
+				<ul class="nav navbar-nav navbar-right">
+					{{{OPCIONES}}}
+					{{{MANUAL}}}
+					<li><a class="opcion_manual" href="{{{LINK_MANUAL}}}"><i class="fa fa-file-text manual_font" aria-hidden="true"></i></a></li>
+					{{{/MANUAL}}}
+					{{{SALIR}}}
+					<li><a class="opcion_salir" href="{{{LINK_SALIR}}}"><i class="fa fa-sign-out salida_font" aria-hidden="true"></i></a></li>
+					{{{/SALIR}}}
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>

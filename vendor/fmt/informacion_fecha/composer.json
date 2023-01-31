@@ -1,0 +1,8 @@
+{
+	"name":"fmt/informacion_fecha",
+	"description":"Api para la obtención de la información del día.",
+	"require": {},
+	"autoload":{
+		"psr-4":{"FMT\\":"src"}
+	}
+}

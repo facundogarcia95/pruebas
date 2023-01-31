@@ -1,0 +1,8 @@
+{
+	"name":"fmt/ubicaciones",
+	"description":"Api para la obtencion de paises, regiones y localidades.",
+	"require": {},
+	"autoload":{
+		"psr-4":{"FMT\\":"src"}
+	}
+}

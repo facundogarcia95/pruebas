@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9d5c8304aa97ffd46026fd2e5ed971c5",
+    "packages": [
+        {
+            "name": "fmt/configuracion",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@desa.transporte.gob.ar:fmt/configuracion.git",
+                "reference": "c57b988645dee70bd23b30931904038c6fba5eb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://desa.transporte.gob.ar/packages/dist/fmt/configuracion/fmt-configuracion-1.0.1-72c8a1.zip",
+                "reference": "c57b988645dee70bd23b30931904038c6fba5eb7",
+                "shasum": "bcf5ef2b4047142ae226d3301bf9f7b3556618c2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FMT\\": "src"
+                }
+            },
+            "description": "configuracion",
+            "time": "2016-09-02T12:51:29+00:00"
+        },
+        {
+            "name": "fmt/fmt",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "git@desa.transporte.gob.ar:fmt/fmt.git",
+                "reference": "11cedd3cb05514341b3416c5fb58383514cf0c2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://desa.transporte.gob.ar/packages/dist/fmt/fmt/fmt-fmt-1.4.0-c06989.zip",
+                "reference": "11cedd3cb05514341b3416c5fb58383514cf0c2e",
+                "shasum": "1411db7e1206f0b4964e927f8680394253443902"
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-json": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FMT\\": "src"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Framework para Ministerio de Transporte",
+            "time": "2019-06-28T19:04:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,8 @@
+{
+	"name":"fmt/logger",
+	"description":"Api para el log de actividades de una aplicación.",
+	"require": {},
+	"autoload":{
+		"psr-4":{"FMT\\":"src"}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"name": "fmt/consola",
+	"description": "Controlador para manejar procesos por consola",
+	"type": "library",
+	"license": "GPL-3.0-only",
+	"authors": [
+		{
+			"name": "sarca",
+			"email": "sarca@transporte.gob.ar"
+		}
+	],
+	"require": {
+		"fmt/configuracion": "^1.0.1",
+		"fmt/fmt": "^1",
+		"fmt/logger": "^1"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://desa.transporte.gob.ar/packages"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"FMT\\": "src/",
+			"FMT\\Consola\\": "src/",
+			"ConsolaEjemplos\\": "ejemplos/src/"
+		}
+	}
+}
